@@ -1,0 +1,157 @@
+body {
+    background-image: url("img/stars-train.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: rgb(68, 6, 83) 1px 0 10px;
+    cursor: url('img/homeless-dog.png'), default;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+h1, h2, h3{
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(255, 219, 127);
+    text-shadow: rgb(255, 220, 103) 1px 0 10px;
+}
+
+/* Zebra table*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-family: sans-serif;
+}
+  
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+  
+tr:nth-child(even) {
+    background-color: #e7bbff;
+}
+tr:nth-child(odd) {
+    background-color: #583591;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: rgb(126, 117, 203);
+}
+
+.topnav{
+    background-color: #a56ec7;
+    font-family: sans-serif;
+    float: center;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+.topnav a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  
+
+  .topnav a:hover {
+    background-color: #4e2468;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+.content-page{
+    border: solid;
+    border-radius: 50px;
+    border-color: rgb(255, 219, 127);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.headshot {
+    display: inline-block;
+    width: 250px; 
+    border-radius: 15%;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 90px;
+}
+
+@media (max-width: 768px) {
+    .headshot {
+        width: 45%;
+        margin: 10px 30px; 
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+    .headshot {
+        width: 90%;
+        margin: 10px 0;
+    }
+}
+
+.slushy-gif{
+    width: 180px;
+    height: auto; 
+    max-width: 100%;
+}
+
+.heart-divider{
+    background-repeat: repeat-x; 
+    background-size: contain;
+}
+
+
+.special-word{
+    color:rgb(255, 91, 91);
+    font-weight: bold;
+}
+
+.quote{
+    background-color: rgb(64, 62, 170);
+    font-style: italic;
+    text-align: center;
+
+}
+
+button {
+    display: block;
+    width: 50%;
+    border: none;
+    background-color: #bdc1ff;
+    padding: 14px 28px;
+    font-size: 16px;
+    color: #4e2468;
+    cursor: pointer;
+    margin: 0 auto 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+button:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+
